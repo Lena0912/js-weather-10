@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+}
+.search-button {
+    background-color: rgb(223, 232, 225);    
+    border-radius: 5px;
+    width: 200px;
+    color: rgb(82, 72, 60);
+    padding: 15px 7px;
+    margin-left: 20px;
+
+}
+.form-group {
+
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+.search-input {
+    padding: 15px;
+}
+.days-select {
+    padding: 5px;
+}
